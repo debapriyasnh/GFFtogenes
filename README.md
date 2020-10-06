@@ -6,7 +6,8 @@ After intersecting with the annotated reference, the output is parsed and a fina
 
 
 The GFF_to_genes.py can be run via command line with the following code:
- python GFF_to_genes.py -in <path to input file>
+
+python GFF_to_genes.py -in [path to input file]
 
 This tool creates 4 files in the directory in which it is run:
 1. intersected.txt : the first file after intersection of the input gff/bedgraph/bed file with the annotated reference
